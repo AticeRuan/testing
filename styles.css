@@ -192,6 +192,7 @@ line-height: 2rem;
     display: block;
     margin-left: 20vw; 
     font-size: 2rem;
+    padding: 0;
 }
 @keyframes typing {
     from { width: 0 }
@@ -318,14 +319,14 @@ p img{
   
   .flip-card-front {
     color: black;
-    background-image: url(/images/folder.png);
+    background-image: url(images/folder.png);
     background-size: cover;
     margin-top: 50px;
   }
   
   .flip-card-back {
     transform: rotateY(180deg);
-    background-image: url(/images/folder_reversed.png);
+    background-image: url(images/folder_reversed.png);
     /* background-clip: content-box; */
     background-size: cover;
     margin-top: 50px;
@@ -367,8 +368,8 @@ p img{
     }
 
     .flip-card-back a:hover{
-        color:rgb(213, 48, 48);
-        font-size: 2rem;
+        color:red;
+        font-size: 2.5rem;
         content: "Are you sure?";
     }
 
